@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa"
+    tools:context=".addba">
+
+    <Button
+        android:id="@+id/artclebutt"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/sellbook"
+        android:textColor="#0C0C0C"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFEB3B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bookbutt"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/artclecreate"
+        android:textColor="#0E0E0E"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFEB3B"
+        app:layout_constraintStart_toStartOf="@+id/artclebutt"
+        app:layout_constraintTop_toBottomOf="@+id/artclebutt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

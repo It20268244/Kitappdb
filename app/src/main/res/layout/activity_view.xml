@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4DEDE"
+    android:padding="10dp"
+    tools:context=".view">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="520dp">
+
+
+            <ImageView
+                android:id="@+id/bookimg"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/b1" />
+
+            <TextView
+                android:id="@+id/bookview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bookimg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/bookname"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/totprice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bookview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="@string/price"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bookdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bookview"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/Descrip" />
+
+            <TextView
+                android:id="@+id/bookcondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bookdescription"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bookcondition"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/minusbtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#F6F4F4"
+                    android:backgroundTint="@color/colbtn"
+                    android:text="@string/symblminus"
+                    app:backgroundTint="@color/white" />
+
+                <TextView
+                    android:id="@+id/quantity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/plusbtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#2196F3"
+                    android:backgroundTint="@color/colbtn"
+                    android:text="@string/btnplus"
+                    app:backgroundTint="@color/white" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_below="@id/linear"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="#F44336"
+                android:backgroundTint="#fed50f"
+                android:padding="5dp"
+                android:text="@string/btnadd"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                app:backgroundTint="#FFEB3B"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="367dp"
+                android:layout_height="47dp"
+                android:layout_below="@id/addbtn"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/mssg" />
+
+
+            <Button
+                android:id="@+id/quebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_below="@id/msg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="#fed50f"
+                android:padding="5dp"
+                android:text="@string/quebtn"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="-29dp"
+                android:layout_marginEnd="-2dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/index" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

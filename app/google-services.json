@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "271449547489",
+    "firebase_url": "https://kitapp-11deb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kitapp-11deb",
+    "storage_bucket": "kitapp-11deb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271449547489:android:c53586ab1121f8d7278da0",
+        "android_client_info": {
+          "package_name": "com.example.kitappdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271449547489-pgl1dpn3afbckgdod2bo004q1b31ardp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg9aR0vQ7eNqGusHYCDGTIdJZ3O5kp4TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271449547489-pgl1dpn3afbckgdod2bo004q1b31ardp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

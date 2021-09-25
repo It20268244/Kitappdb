@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Kitappdb</string>
+    <string name="title_activity_image">image</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="btnadd">Add To Cart</string>
+    <string name="mssg">Questions and Answers</string>
+    <string name="quebtn">Ask Questions</string>
+    <string name="todo">img</string>
+    <string name="btnplus">+</string>
+    <string name="symblminus">-</string>
+    <string name="cnditon">Condition</string>
+    <string name="Descrip">Description</string>
+    <string name="price">Price</string>
+    <string name="bookname">Book Name</string>
+    <string name="b1">b1</string>
+    <string name="title_activity_home">Home</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="num1" />
+    <string name="im3" />
+    <string name="img2" />
+    <string name="bkname">BookName</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Descriptionupdate">Description</string>
+    <string name="qua">Quantity</string>
+    <string name="booknameadd">bookname</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sellbook">I Want To Sell</string>
+    <string name="artclecreate">Create a New Article</string>
+
+</resources>
