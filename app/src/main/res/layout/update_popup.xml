@@ -41,8 +41,8 @@
 
             <EditText
                 android:id="@+id/txtbookname"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -63,7 +63,7 @@
             <EditText
                 android:id="@+id/author"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -84,7 +84,7 @@
             <EditText
                 android:id="@+id/bookpublisher"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -124,7 +124,7 @@
             <EditText
                 android:id="@+id/bkquantityy"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -145,7 +145,7 @@
             <MultiAutoCompleteTextView
                 android:id="@+id/bkdescription"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="wrap_content"
                 android:gravity="center|top" />
 
             <Button

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kitappdb</string>
+    <string name="app_name">KitAPP</string>
     <string name="title_activity_image">image</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -35,5 +35,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sellbook">I Want To Sell</string>
     <string name="artclecreate">Create a New Article</string>
+    <string name="search_title">search</string>
+    <string name="authr">J.K.Rowliing</string>
+    <string name="harry">harry</string>
+    <string name="publishernamehint">Sarasavi</string>
+    <string name="pricehint">100.00</string>
+    <string name="quanthint">5</string>
+    <string name="deshint">Condition :new</string>
 
 </resources>

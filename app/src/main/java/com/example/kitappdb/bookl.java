@@ -6,7 +6,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.SearchView;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -100,4 +103,40 @@ public class bookl extends AppCompatActivity {
         super.onStop();
         myAdapter.stopListening();
     }
+
+  @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.option,menu);
+        MenuItem item = menu.findItem(R.id.search);
+        SearchView searchView = (SearchView) item.getActionView();
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                txtSearch((query));
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                return false;
+            }
+        });
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    private void txtSearch(String str){
+        FirebaseRecyclerOptions<Book> options=
+                new FirebaseRecyclerOptions.Builder<Book>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("bitem").child("bb").orderByChild("book_name").startAt(str).endAt(str+"~"),Book.class)
+                        .build();
+        myAdapter = new myadapter(options);
+        myAdapter.startListening();
+        recyclerView.setAdapter(myAdapter);
+    }
+
+
+
+
+
 }
