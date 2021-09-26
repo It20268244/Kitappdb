@@ -37,5 +37,15 @@
     <string name="artclecreate">Create a New Article</string>
     <string name="inq_msg_hint" />
     <string name="search_title" />
+    <string name="reply" />
+    <string name="Asked_by_me" />
+    <string name="AskedFromMe" />
+    <string name="inquiry_btn_ask" />
+    <string name="harry" />
+    <string name="authr" />
+    <string name="publishernamehint" />
+    <string name="pricehint" />
+    <string name="quanthint" />
+    <string name="deshint" />
 
 </resources>

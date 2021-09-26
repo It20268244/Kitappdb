@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kitappdb">
         <activity
+            android:name=".amy"
+            android:exported="true" />
+        <activity
             android:name=".addba"
             android:exported="true" />
         <activity

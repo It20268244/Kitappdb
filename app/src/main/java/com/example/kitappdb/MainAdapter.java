@@ -26,14 +26,14 @@ import org.jetbrains.annotations.NotNull;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MainAdapter extends FirebaseRecyclerAdapter<article,MainAdapter.myViewHolder> {
+/*public class MainAdapter extends FirebaseRecyclerAdapter<article,MainAdapter.myViewHolder> {
     /**
      * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
      * {@link FirebaseRecyclerOptions} for configuration options.
      *
      * @param options
      */
-    public MainAdapter(@NonNull @NotNull FirebaseRecyclerOptions<article> options) {
+  /*  public MainAdapter(@NonNull @NotNull FirebaseRecyclerOptions<article> options) {
         super(options);
     }
 
@@ -155,4 +155,4 @@ public class MainAdapter extends FirebaseRecyclerAdapter<article,MainAdapter.myV
 
         }
     }
-}
+}*/

@@ -20,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Locale;
 
-public class RArticle extends AppCompatActivity {
+/*public class RArticle extends AppCompatActivity {
     RecyclerView recyclerView ;
     MainAdapter mainAdapter;
 
@@ -42,7 +42,7 @@ public class RArticle extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),MainActivity.class));//add article check
             }
         });*/
-        FirebaseRecyclerOptions<article> options=
+       /* FirebaseRecyclerOptions<article> options=
                 new FirebaseRecyclerOptions.Builder<article>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("articles"),article.class)
                         .build();
@@ -108,5 +108,5 @@ public class RArticle extends AppCompatActivity {
         val Category = getResources().getStringArray(R.id.et_articleType)
         val arrayAdapter = arrayAdapter(requireContext(),R.layout.dropdown,Category)
         binding.autoCompleteTextView.setAdapter(ArrayAdapter)
-    }*/
-}
+    }
+}*/
