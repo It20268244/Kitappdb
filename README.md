@@ -1,4 +1,4 @@
-# Kitappdb
+# Kitapp
 
 KITAPP is a app for buying and sellng books 
 
