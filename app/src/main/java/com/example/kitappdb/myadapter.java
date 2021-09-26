@@ -49,7 +49,7 @@ public class myadapter extends FirebaseRecyclerAdapter<Book , myadapter.myViewho
 
        // Picasso.get().load(model.getImageURL()).into(holder.imagebk);
         Glide.with(holder.imagebk.getContext()).load(model.getImageURL()).placeholder(R.drawable.index)
-                .circleCrop().error(R.drawable.common_google_signin_btn_icon_dark)
+                .error(R.drawable.common_google_signin_btn_icon_dark)
                 .into(holder.imagebk);
         holder.btnedit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -148,11 +148,11 @@ public class myadapter extends FirebaseRecyclerAdapter<Book , myadapter.myViewho
     }
 
     class myViewholder extends  RecyclerView.ViewHolder{
-        TextView bookname , author ;
-        Button btnedit,btndelete;
-        CircleImageView imagebk;
+            TextView bookname , author ;
+            Button btnedit,btndelete;
+            CircleImageView imagebk;
 
-        public myViewholder(@NonNull View itemView) {
+            public myViewholder(@NonNull View itemView) {
             super(itemView);
 
             bookname = itemView.findViewById(R.id.bkname);

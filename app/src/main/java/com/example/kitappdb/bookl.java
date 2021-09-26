@@ -128,7 +128,8 @@ public class bookl extends AppCompatActivity {
     private void txtSearch(String str){
         FirebaseRecyclerOptions<Book> options=
                 new FirebaseRecyclerOptions.Builder<Book>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("bitem").child("bb").orderByChild("book_name").startAt(str).endAt(str+"~"),Book.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("bitem").child("bb").orderByChild("book_name")
+                                .startAt(str).endAt(str+"~"),Book.class)
                         .build();
         myAdapter = new myadapter(options);
         myAdapter.startListening();

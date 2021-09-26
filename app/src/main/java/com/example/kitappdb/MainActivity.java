@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
                         clearControls();
                     }
                 } catch (NumberFormatException e) {
-                    Toast.makeText(getApplicationContext(), "Invalid contact number", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Couldnt Save your data", Toast.LENGTH_SHORT).show();
                 }
             }
         });
