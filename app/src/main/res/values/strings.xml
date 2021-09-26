@@ -35,5 +35,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sellbook">I Want To Sell</string>
     <string name="artclecreate">Create a New Article</string>
+    <string name="inq_msg_hint" />
+    <string name="search_title" />
 
 </resources>

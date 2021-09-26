@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/drawable/add_new.xml" value="0.105859375" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1765625" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/drawable/search.xml" value="0.1765625" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/drawable/search_icon.xml" value="0.1765625" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_addactivity.xml" value="0.2" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_addba.xml" value="0.1828125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_bookl.xml" value="0.19453125" />
@@ -15,16 +18,19 @@
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_list.xml" value="0.19453125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_my_adapter.xml" value="0.183984375" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_read_article.xml" value="0.19453125" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_send_message.xml" value="0.172265625" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_shoppingcart.xml" value="0.19453125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/activity_view.xml" value="0.16953125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/cart.xml" value="0.19453125" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/cart_view.xml" value="0.1828125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/fragment_addfragment.xml" value="0.1828125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/fragment_second.xml" value="0.181640625" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/item.xml" value="0.161328125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/s_cart.xml" value="0.18203125" />
         <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/layout/update_popup.xml" value="0.16799999999999998" />
-        <entry key="..\:/Users/user/Desktop/Kitappdb/app/src/main/res/layout/activity_addactivity.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/user/Desktop/Kitappdb/app/src/main/res/layout/cart_view.xml" value="0.176" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/menu/option.xml" value="0.1828125" />
+        <entry key="..\:/Users/Amani/Desktop/Kitappdb/app/src/main/res/menu/search.xml" value="0.164453125" />
       </map>
     </option>
   </component>
